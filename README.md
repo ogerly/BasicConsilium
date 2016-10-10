@@ -229,8 +229,8 @@ hfp_ajax_html.js
     data_foo :: die daten die per ajax ans php gesendet werden wenn lehr dann wird typ genommen 
     data_foo BEISPIEL:: {"userid":69,"betreff":"yyxyxcyxc","txt":"yyxcyxcyxcyc"}
     
-#### "data_foo" wird zum "dataArray"(ARRAY)
-
 ####  "typ" wird von switch(typ) gefiltert. 
+####  "typ" wird von hfp.php für MYSQL anfrage gefiltert. 
 
-
+### AJAX Ergebniss ist == "data"
+#### "data_foo" === "dataArray"(ARRAY)
