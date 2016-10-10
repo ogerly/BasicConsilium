@@ -153,7 +153,7 @@ Der Vorstand kann von hier aus E-Mails schreiben. Die E-Mails werden gespeichert
 
 
 # 6. Newsletter
-Der Bundesvorstand kann von hier seine Mitglieder über z.B. Neuigkeiten informieren.
+Der Bundesvorstand oder die Vorstände der Untergliederungen kann von hier ihre Mitglieder über z.B. Neuigkeiten informieren.
 Mitglieder können sich ein oder austragen um den Newsletter zu erhalten. 
 Der Vorstand hat aber die Möglichkeit bei sehr wichtigen Infos die alle Mitglieder angehen eine E-Mail an alle zu versenden. 
  
@@ -170,9 +170,9 @@ Der Vorstand hat aber die Möglichkeit bei sehr wichtigen Infos die alle Mitglie
 
 
 # 7.  Finanzen
-Das ist der Bereich für den Kassenwart. Auch für die Kassenwarte der Untergliederungen der HFP Bundespartei.
-Es wird die Finanzelle Buchführung der HFP. Alle Kassenwarte benutzen dieses Tool um Einnahmen und Ausgaben zu protokollieren. Alle Spendeneinnahmen werden auch aufgeführt. 
-Mitglieder haben immer eine Einsicht in die aktuelle Finanzelle Situation.
+Das ist der Bereich für den Kassenwart. Auch für die Kassenwarte der Untergliederungen einer Bundespartei.
+Es wird die digitale Buchführung. Alle Kassenwarte benutzen dieses Tool um Einnahmen und Ausgaben zu protokollieren. Alle Spendeneinnahmen können auch aufgeführt werden. 
+Mitglieder haben immer eine Einsicht in den aktuellen finanzellen Status.
                         
 ### Funktionen
     - neue Einträge ins Kassenbuch eintragen
@@ -184,8 +184,8 @@ Mitglieder haben immer eine Einsicht in die aktuelle Finanzelle Situation.
 
 
 8. Umfragen
-Basisdemokratische Entscheidungen innerhalb der Bundespartei und ihrer Unterverbände ermöglichen und sichtbar machen. 
-In den Arbeitsgruppen können auch basisdemokratische Entscheidungen dadurch möglich und sichtbar gemacht werden. 
+Basisdemokratische Entscheidungen innerhalb einer Bundespartei und ihrer Unterverbände ermöglichen und sichtbar machen. 
+In den Arbeitsgruppen können auch basisdemokratische Entscheidungen dadurch Möglich und sichtbar gemacht werden. 
 
 Funktionen
 
