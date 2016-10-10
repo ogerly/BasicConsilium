@@ -1,6 +1,6 @@
 # BasicConsilium
-
-für Transparenz und Mitarbeit in der Politik 
+### Basis Politik 
+#### für Transparenz und Mitarbeit in der Politik 
 
 
 BasicConsilium soll ein Arbeitstool für die Politische Arbeit werden. 
