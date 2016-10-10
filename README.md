@@ -197,3 +197,40 @@ der Vorstand kann:
 
      - Umfragen auf Bundesebene durchführen.  Diese Umfragen können dann auch gleichzeitig in allen zusätzlichen von der HFP betriebenen Medien und Verbündeten Medien durchgeführt und ausgewertet werden. 
 
+
+
+_____________________
+_____________________
+
+# BasicConsilium Dokumentation
+
+
+## Startfunktion
+    load_counts("index");
+
+
+## index.php
+Hier muss die Websocket Verbindung angepasst werden
+
+      //create a new WebSocket object.
+      // example ws://humanistischefriedenspartei.de:9000/server.php
+### var wsUri = "ws://0.0.0.0:9000/server.php"; 	
+  
+  >> Beim ersten Verbinden des Websocket kann es passieren das die Seite ewig lädt. Bei uns hilft es wenn wir den Browser noch mal neu starten und dann wird die Verbindung auch immer ordentlich dargestellt. Local muss man es nach jedem Neustart des Rechners machen! 
+  
+  
+
+## AJAX Funktion 
+hfp_ajax_html.js
+
+#### function myajax(typ,foo,data_foo)
+    typ :: muss immer angegeben werden
+    foo :: kann angegeben werden
+    data_foo :: die daten die per ajax ans php gesendet werden wenn lehr dann wird typ genommen 
+    data_foo BEISPIEL:: {"userid":69,"betreff":"yyxyxcyxc","txt":"yyxcyxcyxcyc"}
+    
+#### "data_foo" wird zum "dataArray"(ARRAY)
+
+####  "typ" wird von switch(typ) gefiltert. 
+
+
