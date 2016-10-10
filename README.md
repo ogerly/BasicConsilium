@@ -17,22 +17,22 @@ Wichtig ist eine Störungsfreie Kommunikation und die Fokussierung auf Sach- und
 
 ## Startseite - Dashboard / Instrumententafel 
 
-- Summe aller Spendeneinnamen 
-- Gesamtsumme Finanzen
-- Summe Mitglieder
-- Summe Arbeitsgruppen
+    - Summe aller Spendeneinnamen 
+    - Gesamtsumme Finanzen
+    - Summe Mitglieder
+    - Summe Arbeitsgruppen
 
-- Allgemeiner Mitglieder Chat
+    - Allgemeiner Mitglieder Chat
 
-- Artikelübersicht – neuste Artikel vom Vorstand
-- Artikelübersicht –  neuste Artikel aus den Arbeitsgruppen
-- Artikelübersicht –  neuste Artikel von Mitgliedern
+    - Artikelübersicht – neuste Artikel vom Vorstand
+    - Artikelübersicht –  neuste Artikel aus den Arbeitsgruppen
+    - Artikelübersicht –  neuste Artikel von Mitgliedern
 
-- neuste Bilder
-- neuste Videos
+    - neuste Bilder
+    - neuste Videos
 
-- neuste Aufgaben
-- neuste Projekte
+    - neuste Aufgaben
+    - neuste Projekte
 
 
 
@@ -88,17 +88,17 @@ Hier gibt es eine Übersicht über alle Aufgaben.
 In jeder Arbeitsgruppe steht eine Aufgabenliste zur Verfügung. 
  
 ### Funktionen
-  - Neue Aufgabe erstellen
-    - Typ
-    - Status
-    - Arbeitsstand
-    - Titel
-    - Beschreibung
-    - Ansprechpartner
-    - Enddatum
+    - Neue Aufgabe erstellen
+       - Typ
+       - Status
+       - Arbeitsstand
+       - Titel
+        - Beschreibung
+        - Ansprechpartner
+        - Enddatum
 
 
-    - Aufgaben bearbeiten
+     - Aufgaben bearbeiten
 
 
 ### Der Vorstand kann:    
@@ -112,23 +112,23 @@ Eine Auflistung aller angelegten Arbeitsgruppen welche zur Internen Arbeit der H
 Eine Übersicht aller im angeschlossenen Netzwerk PeacePoint erstellten Arbeitsgruppen. 
 
 ### Funktionen
-  - Beitreten oder Austreten in Arbeitsgruppen
+    - Beitreten oder Austreten in Arbeitsgruppen
 
 ### Der Vorstand kann: 
-  - anlegen von neuen Arbeitsgruppen
-  - bearbeiten von Arbeitsgruppen
+    - anlegen von neuen Arbeitsgruppen
+    - bearbeiten von Arbeitsgruppen
 
 
 # 3.1.  Die Arbeitsgruppen
 
 ### Funktionen
-  - neuen Artikel anlegen
-  - Artikelübersicht mit Kommentarfunktion
-  - Mitgliederübersicht
-  - Arbeitsgruppenchat
-  - Dokumentablage
-  - Aufgabenliste
-  - Projektliste
+    - neuen Artikel anlegen
+    - Artikelübersicht mit Kommentarfunktion
+    - Mitgliederübersicht
+    - Arbeitsgruppenchat
+    - Dokumentablage
+    - Aufgabenliste
+    - Projektliste
 
 
 
@@ -143,11 +143,11 @@ Eine Übersicht von allen Projekten die in den Arbeitsgruppen angelegt werden.
 Der Vorstand kann von hier aus E-Mails schreiben. Die E-Mails werden gespeichert und sind für alle Mitglieder einsehbar. 
                      
 ### Funktionen
-  - E-Maileingang Übersicht
-  - E-Mailausgang Übersicht
+    - E-Maileingang Übersicht
+    - E-Mailausgang Übersicht
 
 ### der Vorstand kann: 
-  - E-Mail schreiben.
+    - E-Mail schreiben.
 
 
 
@@ -158,11 +158,11 @@ Mitglieder können sich ein oder austragen um den Newsletter zu erhalten.
 Der Vorstand hat aber die Möglichkeit bei sehr wichtigen Infos die alle Mitglieder angehen eine E-Mail an alle zu versenden. 
  
 ### Funktionen
-  - Mitglieder können sich für den Newsletter ein und austragen
+    - Mitglieder können sich für den Newsletter ein und austragen
 
 
 ### der Vorstand kann: 
-  - Newsletter verfassen und versenden.
+    - Newsletter verfassen und versenden.
 
 
 
