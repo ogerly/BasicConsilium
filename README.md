@@ -175,10 +175,10 @@ Es wird die Finanzelle Buchführung der HFP. Alle Kassenwarte benutzen dieses To
 Mitglieder haben immer eine Einsicht in die aktuelle Finanzelle Situation.
                         
 ### Funktionen
-  - neue Einträge ins Kassenbuch eintragen
+    - neue Einträge ins Kassenbuch eintragen
  
 ### der Vorstand kann: 
-  - kann neue Einträge tätigen aber sie müssen vom jeweiligen Kassenwart bestätigt werden.
+    - kann neue Einträge tätigen aber sie müssen vom jeweiligen Kassenwart bestätigt werden.
 
 
 
@@ -188,10 +188,12 @@ Basisdemokratische Entscheidungen innerhalb der Bundespartei und ihrer Unterverb
 In den Arbeitsgruppen können auch basisdemokratische Entscheidungen dadurch möglich und sichtbar gemacht werden. 
 
 Funktionen
-- neu Abstimmung erstellen
-- Abstimmungsübersicht
-- Ergebnisübersicht
+
+    - neu Abstimmung erstellen
+    - Abstimmungsübersicht
+    - Ergebnisübersicht
 
 der Vorstand kann:
-- Umfragen auf Bundesebene durchführen.  Diese Umfragen können dann auch gleichzeitig in allen zusätzlichen von der HFP betriebenen Medien und Verbündeten Medien durchgeführt und ausgewertet werden. 
+
+     - Umfragen auf Bundesebene durchführen.  Diese Umfragen können dann auch gleichzeitig in allen zusätzlichen von der HFP betriebenen Medien und Verbündeten Medien durchgeführt und ausgewertet werden. 
 
