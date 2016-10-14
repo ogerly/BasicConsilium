@@ -1,18 +1,18 @@
-# BasicConsilium
-### Basis Politik 
+# BasisConsilium
+### Die Grundlage des Rates - BasisPolitik 
 #### für Transparenz und Mitarbeit in der Politik 
 
 
-BasicConsilium soll ein Arbeitstool für die Politische Arbeit werden. 
+BasisConsilium soll ein Arbeitstool für die Politische Arbeit werden. 
 Damit soll eine lückenlose Dokumentation der Arbeit der Vorstände möglich gemacht werden. 
-BasicConsilium bietet die Möglichkeit sämtliche schritte welche intern zur Lösungsfindung nötig sind Transparenz darzustellen. 
+BasisConsilium bietet die Möglichkeit sämtliche schritte welche intern zur Lösungsfindung nötig sind Transparenz darzustellen. 
 Einen kompletten Einblick in die Finanzbücher und der elektronischen Kommunikation.
 Basisdemokratische Entscheidungen und die Mitarbeit in Arbeitsgruppen und Projekten die von den Mitgliedern erstellt und betreut werden können. 
-BasicConsilium soll künftig frei zur Verfügung stehen.  
+BasisConsilium soll künftig frei zur Verfügung stehen.  
 
   
 Die Teilnahmemöglichkeit jedes Mitglieds steht an oberster Stelle.   
-Die Kontrollmechanismen um dies auch zu gewährgeleistet zu können müssen in den folgenden Monaten nach der Veröffentlichung der HFPbase ausgetestet und angepasst werden.  
+Die Kontrollmechanismen um dies auch gewährgeleistet zu können müssen in den folgenden Monaten nach der Veröffentlichung der HFPbase durch die Humanistische Friedenspartei ausgetestet und angepasst werden.  
 Wichtig ist eine Störungsfreie Kommunikation und die Fokussierung auf Sach- und Themengebiete. 
 
 ## Startseite - Dashboard / Instrumententafel 
@@ -38,11 +38,7 @@ Wichtig ist eine Störungsfreie Kommunikation und die Fokussierung auf Sach- und
 
 
 
-
-
-
-
-
+ 
 
 
 ## Die Basis Komponenten sind: 
@@ -108,8 +104,8 @@ In jeder Arbeitsgruppe steht eine Aufgabenliste zur Verfügung.
 
 
 # 3. Arbeitsgruppen
-Eine Auflistung aller angelegten Arbeitsgruppen welche zur Internen Arbeit der HFP angelgt und betreut werden.
-Eine Übersicht aller im angeschlossenen Netzwerk PeacePoint erstellten Arbeitsgruppen. 
+Eine Auflistung aller angelegten Arbeitsgruppen welche zur Internen Arbeit im BasisConsilium angelgt und betreut werden.
+Eine Übersicht aller in angeschlossenen Netzwerken erstellten Arbeitsgruppen. 
 
 ### Funktionen
     - Beitreten oder Austreten in Arbeitsgruppen
@@ -202,7 +198,7 @@ der Vorstand kann:
 _____________________
 _____________________
 
-# BasicConsilium Dokumentation
+# BasisConsilium Dokumentation
 
 
 ## Startfunktion
