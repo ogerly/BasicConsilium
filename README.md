@@ -3,17 +3,10 @@
 #### für Transparenz und Mitarbeit in der Politik 
 
 
-BasisConsilium soll ein Arbeitstool für die Politische Arbeit werden. 
-Damit soll eine lückenlose Dokumentation der Arbeit der Vorstände möglich gemacht werden. 
-BasisConsilium bietet die Möglichkeit sämtliche schritte welche intern zur Lösungsfindung nötig sind Transparenz darzustellen. 
-Einen kompletten Einblick in die Finanzbücher und der elektronischen Kommunikation.
-Basisdemokratische Entscheidungen und die Mitarbeit in Arbeitsgruppen und Projekten die von den Mitgliedern erstellt und betreut werden können. 
-BasisConsilium soll künftig frei zur Verfügung stehen.  
-
-  
-Die Teilnahmemöglichkeit jedes Mitglieds steht an oberster Stelle.   
-Die Kontrollmechanismen um dies auch gewährgeleistet zu können müssen in den folgenden Monaten nach der Veröffentlichung der HFPbase durch die Humanistische Friedenspartei ausgetestet und angepasst werden.  
-Wichtig ist eine Störungsfreie Kommunikation und die Fokussierung auf Sach- und Themengebiete. 
+BasisConsilium soll ein Arbeitstool für die Politische Arbeit werden. Damit soll eine lückenlose Dokumentation der Arbeit der Vorstände möglich gemacht werden. BasisConsilium bietet die Möglichkeit, sämtliche Schritte, welche intern zur Lösungsfindung nötig sind, transparent darzustellen, einen kompletten Einblick in die Finanzbücher und die elektronischen Kommunikation, sowie die Möglichkeit basisdemokratische Entscheidungen und die Mitarbeit in Arbeitsgruppen und Projekten herbeizuführen, die von den Mitgliedern erstellt und betreut werden können. BasisConsilium soll künftig frei zur Verfügung stehen.
+Die Teilnahmemöglichkeit jedes Mitglieds steht an oberster Stelle.
+Die Kontrollmechanismen um dies auch gewährgeleistet zu können, müssen in den folgenden Monaten nach der Veröffentlichung der HFPbase durch die Humanistische Friedenspartei ausgetestet und angepasst werden.
+Wichtig ist eine störungsfreie Kommunikation und die Fokussierung auf Sach- und Themengebiete. 
 
 ## Startseite - Dashboard / Instrumententafel 
 
