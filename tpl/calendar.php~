@@ -1,0 +1,12 @@
+	<div id="main">
+						<div class="inner">
+						    <article  >
+								<div class="elastic-video">	
+                           <iframe   src="/fullcalendar/demos/basic-views.html" frameborder="0" allowfullscreen></iframe>
+								</div>
+							 </article>
+							  
+					   </div>
+					</div>
+					
+    <section> <div id="showcalendar"></div></section>

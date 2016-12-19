@@ -1,0 +1,73 @@
+ 
+<!-- main-sidebar.html  -->
+
+<aside class="main-sidebar">
+
+    
+    <section class="sidebar">
+ 
+      <!--
+      <div class="user-panel" onclick="showUser(<?php echo $IDI; ?>)" style="cursor: pointer;">
+        <div class="pull-left image">
+          <img src="useruploads/profilbilder/<?php echo $_SESSION['img'] ?>" class="img-circle theUserIMG" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p id="profil-username"><?php echo $NAME; ?></p>
+          
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+
+      
+      <form class="sidebar-form" >
+        <div class="input-group">
+          <input id="search-input" type="text" name="search" class="form-control" placeholder="Suche...">
+              <span class="input-group-btn">
+                <button id="search-submit" type="button"  class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      
+-->
+      
+     <ul class="sidebar-menu">
+        <li class="header">MENÜ</li>
+                <li class="" id="board_vorstand" ><a href="#<?php echo $_SESSION['maininfo'][0]; ?>" onclick="showSYS()" ><i class="fa fa-comments"></i> <span><?php echo $_SESSION['maininfo'][0]; ?></span></a></li> 
+        
+        <li class="" id="board_members" >
+           <a href="#mitglieder">
+	            <i class="fa fa-users"></i> 
+	            <span>Mitglieder</span>
+           </a>
+        </li>       
+        <li class="" id="board_todo"><a href="#todo" ><i class="fa fa-list-ol"></i> <span>Aufgabenliste</span></a></li>
+        <li class="" id="board_ags"><a href="#arbeitsgruppen" ><i class="fa fa-cube"></i> <span>Arbeitsgruppen</span></a></li>
+        <li class="" id="board_projects"><a href="#projekte" ><i class="fa fa-cubes"></i> <span>Projekte</span></a></li>
+        <li class="" id="board_email" ><a href="#email" ><i class="fa fa-envelope-o"></i> <span>E-Mails</span></a></li>
+        <li class="" id="board_finanz" ><a href="#finanzen" ><i class="fa fa-eur"></i> <span>Finanzen</span></a></li>
+        <li class="" id="board_umfrage" ><a href="#umfragen" ><i class="fa fa-comments-o"></i> <span>Umfragen</span></a></li>       
+
+        <li class="" id="board_landesverband" ><a href="#landesverbaende" ><i class="fa fa-comments"></i> <span>Landesverbände</span></a></li> 
+        
+        <hr>
+<li class="active" id="board_useronline" >
+           <a href="#mitglieder">
+	            <i class="fa fa-users"></i> 
+	            <span>online</span>
+	            <span class="pull-right-container">
+	              <span id="countUseronline" class="label label-primary pull-right">0</span>
+	            </span>
+           </a>
+            <ul id="countUseronlineBOX" class="treeview-menu menu-open" style="display: block;">
+            
+          </ul>
+        </li>
+        
+      
+      </ul>
+      
+    </section>
+    
+  </aside>
+  <!-- main-sidebar.html  ende -->

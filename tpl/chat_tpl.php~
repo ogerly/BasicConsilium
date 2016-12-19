@@ -1,0 +1,209 @@
+<?php 
+  header("Content-Type: text/html; charset=utf-8"); 
+
+    session_start(); 
+    require_once('setup.php');
+    
+    
+      $sql = "SELECT `id`, `name`, `date`, `text`, `re_id` FROM `chat` ";         
+      $erg =  sql_db($sql, null);
+      
+      $teile = explode("#$#", $erg);
+      
+      
+   if (isset($_SESSION['name'])) {
+   $NAME = $_SESSION['name'];
+} else {
+   $NAME = "GAST";
+}
+?><!DOCTYPE HTML>
+<!--
+          _____                    _____                    _____          
+         /\    \                  /\    \                  /\    \         
+        /::\____\                /::\    \                /::\    \        
+       /:::/    /               /::::\    \              /::::\    \       
+      /:::/    /               /::::::\    \            /::::::\    \      
+     /:::/    /               /:::/\:::\    \          /:::/\:::\    \     
+    /:::/____/               /:::/__\:::\    \        /:::/__\:::\    \    
+   /::::\    \              /::::\   \:::\    \      /::::\   \:::\    \   
+  /::::::\    \   _____    /::::::\   \:::\    \    /::::::\   \:::\    \  
+ /:::/\:::\    \ /\    \  /:::/\:::\   \:::\    \  /:::/\:::\   \:::\____\ 
+/:::/  \:::\    /::\____\/:::/  \:::\   \:::\____\/:::/  \:::\   \:::|    |
+\::/    \:::\  /:::/    /\::/    \:::\   \::/    /\::/    \:::\  /:::|____|
+ \/____/ \:::\/:::/    /  \/____/ \:::\   \/____/  \/_____/\:::\/:::/    / 
+          \::::::/    /            \:::\    \               \::::::/    /  
+           \::::/    /              \:::\____\               \::::/    /   
+           /:::/    /                \::/    /                \::/____/    
+          /:::/    /                  \/____/                  ~~          
+         /:::/    /                                                        
+        /:::/    /                                                         
+        \::/    /                                                          
+         \/____/                                                           
+               CHAT                                                            
+Humanistische Friedenspartei
+Kantstraße 65
+10627 Berlin
+Telefon: +49 (0)30 31807043
+E-Mail: info@humanistischefriedenspartei.de
+
+   ___                      ___      _       _   
+  / _ \___  __ _  ___ ___  / _ \___ (_)_ __ | |_ 
+ / /_)/ _ \/ _` |/ __/ _ \/ /_)/ _ \| | '_ \| __|
+/ ___/  __/ (_| | (_|  __/ ___/ (_) | | | | | |_ 
+\/    \___|\__,_|\___\___\/    \___/|_|_| |_|\__|
+                                                 CHAT
+PeacePoint ist eine Service der HFP
+http://www.peacepoint.de
+
+
+-->
+
+<html>
+	<head>
+		<title>HFP Chat</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/hfp.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	 <style type="text/css">
+			#main { margin-top: -30px; }
+			#chatform input { background-color: gainsboro;}
+			#chatbox { background-color: rgb(215, 215, 236); padding: 10px;}
+				.tuser { background-color:rgb(244, 244, 244); padding: 10px;}
+				.tname { font-size: x-small; }
+				.tzeit { margin-left: 20px; font-size: x-small;}
+				.ttext { }
+				
+	 </style>
+	 	 <?php 
+  if (isset($_SESSION['name'])) {
+   $NAME = $_SESSION['name'];
+   echo ' <script type="text/javascript"> var NAME = "'. $_SESSION['name'] .'"; var CHATTEXT = "'.$erg.'";	 </script>';
+} else {
+   $NAME = "GAST";
+   echo ' <script type="text/javascript"> var NAME = "GAST";	var CHATTEXT = "'.$erg.'"; </script>';
+}	
+ 
+?>
+	
+	</head>
+	<body>
+	  
+ 	
+ 	
+	  
+	  
+	  
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+						</div>
+					</header>
+
+			
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">						 
+								 <br><br>
+					          <!-- INNERBOX -->
+								<div id="innerbox">  
+							         <form id="chatform" >
+									      <h3>CHAT</h3>
+									      <p>Hier kannst du uns eine Frage stellen. Wir antworten sobald wir es lesen. Deine Nachricht bleibt gespeichert. Du kannst später jederzeit vorbeischauen. </p>
+									      <label for="fname">Deine Nachricht</label>
+									      <input type="text" name="chattext" id="chattext" >
+									      <input type="submit" value="senden" class="none">
+								    </form>
+							       
+					             <div id="chatbox">
+					                
+					             </div>
+						      </div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					 
+					</footer>
+                  Stelle dir immer diese Fragen! Nutzt es dem Menschen? - Nutze es der Umwelt? - Nutzt es dem Frieden?
+			</div>
+    </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/hfp.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+         // $("#logbuch_user").click();
+         function mmhh() {	$("#hinclose").click()	 }
+	        setTimeout(mmhh, 2000);
+  
+   
+    
+    $("#chatform").submit(function(event ) {    	
+    	event.preventDefault();
+    	var txt, code;
+    	    txt  = $("#chattext").val();
+    	  if (txt == "") {    	  	
+    	  	   	alert("Text fehlt!");  
+    	  	   	$("#chattext").focus().css("background-color","rgb(242, 185, 185)"); 	  	 
+    	  	
+    	  } else {
+    	  	 
+            var  postData =  $("#chatform").serialize();
+			  	  	$.ajax({
+							url : "form_schreiben.php",
+							type: "POST",
+							data : postData,
+							success:function(data){								
+								  //// console.log( data );							      
+					          if (data == "OK") {	                           
+					              console.log("gespeichert");
+	                      				              	 
+					          } else {					          
+					              console.log("error:" + data );
+					          }					           
+							}
+						});//ajax  
+						 code = '<div class="tuser"><span class="tname"><strong>'+NAME+'</strong></span><span class="tzeit"><em>jetzt</em></span><div class="ttext">' + txt + '</div></div>'
+           $("#chatbox" ).prepend(code);
+           $("#chattext" ).val("");
+    	  }
+      
+    });
+    
+    function loadchat() {
+    	 // beim start chat füllen
+     console.log("CHATTEXT =>" + CHATTEXT);
+     var x=0,y=0,teile,dat, code,
+         zeile = CHATTEXT.split("#|#"),
+         lz = zeile.length;
+         console.log("lz =>" + lz);
+     for (x; x < lz; x++ ) {
+     	   console.log("zeile =>" + zeile[x]);
+     	   teile = zeile[x];
+     	   dat = teile.split("#$#");
+     	   code = '<div class="tt" id="n'+dat[0]+'" class="tuser"><span class="tname"><strong>'+dat[1]+'</strong></span><span class="tzeit"><em>'+dat[2]+'</em></span><div class="ttext">'+dat[3]+'</div></div>'
+     	   //4#$#admin#$#2016-08-02 11:06:23#$#asds as asd asd asd#$#antwortid
+     	    $("#chatbox" ).prepend(code);
+     	    $(".tt" ).last().focus();
+     }
+    }
+    loadchat();
+  });															
+      </script>
+       
+	</body>
+</html>

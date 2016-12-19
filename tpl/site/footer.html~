@@ -1,0 +1,8 @@
+  <footer class="main-footer">
+    
+    <div class="pull-right hidden-xs">
+        Anything you want
+    </div>
+    
+    <strong>Copyright &copy; 2016 <a href="#">Alexander Friedland</a>.</strong> Verbunden <span id="connectstatus" ></span>
+  </footer>

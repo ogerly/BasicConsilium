@@ -1,0 +1,23 @@
+<?php
+
+session_start(); 
+
+
+ # Ist der User eingeloggt ??? 
+    if ($_SESSION["login"] == 0){ 
+        header('Location: login.php'); exit;  
+        exit; 
+        } 
+
+
+require_once('setup.php');
+
+   if (isset($_SESSION['name'])) { $NAME = $_SESSION['name']; } else { $NAME = "GAST"; }
+   
+   if ( $NAME === "GAST" ) { }
+
+?>
+
+<div id="massmailbox"> 
+     load all mitglieder 
+</div>

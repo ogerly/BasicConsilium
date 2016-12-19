@@ -1,0 +1,55 @@
+
+
+<section id="finlistform" class="none">
+		<div class="row">
+			
+		 
+		   <div class="6u 12u$(medium)">			 
+				 <form id="finanzform2" method="post" action="#">
+				     <div class="row uniform">
+	                 <div class="6u 12u$">
+						     <div class="select-wrapper">
+							     <select name="category" id="fin_category">
+								    <option value="">- Kategorie -</option>
+								    <option value="Ausgaben" >Ausgaben</option>
+								    <option value="Einnahmen">Einnahmen</option>
+								    <option value="Spenden Einnahmen">Spenden einnahmen</option>
+								    <option value="Mitgliederbeitrag">Mitgliederbeitrag</option>
+							     </select>
+							     <label for="category">Kategorie</label>
+						     </div>
+					     </div>
+	 
+			        </div>
+		     </form>
+		   </div>
+		     <div class="6u$ 12u$(medium)">			 
+				 <form id="finanzform1" method="post" action="#">
+				     <div class="row uniform">
+	                 
+					     <div id="fin_none" class="6u 12u$(xsmall) none" >
+					        <input type="text" name="betrag" id="betrag" value="" placeholder="Betrag" />
+					        <label for="betrag">Betrag(in €)</label>
+				        </div>
+				        <div  id="fin_none" class="6u 12u$(xsmall)   none" >
+					        <input type="text" name="name" id="name" value="" placeholder="Sender oder Empfänger" />
+					        <label for="name">Name</label>
+				        </div>				         
+				        <div id="fin_none" class=" 12u$   none" >
+					         <input type="text" name="desc" id="desc" value="" placeholder="Beschreibung" />
+					         <label for="quelle">Beschreibung</label>
+				        </div>
+				           <div class="12u$">
+					<ul id="fin_none" class="actions none">
+						<li><input id="submit_finanzen" type="submit" value="speichern" class="special" /></li>
+						<li><input id="fin_reset" type="reset" value="zurück" /></li>
+					</ul>
+				</div>
+ 
+			        </div>
+		     </form>
+		   </div>
+	</div>		 
+</section> 
+<section><div id="tpllist"></div></section>
+ 

@@ -1,0 +1,138 @@
+<head>
+
+   <script src="dist/lang/bc_text_de.js" ></script>
+
+  
+  <script type="text/javascript"> 
+
+  MAIN = {
+    "name"    :"<?php echo $_SESSION['maininfo'][0]; ?>", 
+    "desc"    :"<?php echo $_SESSION['maininfo'][1]; ?>" ,
+    "creator" :"<?php echo $_SESSION['maininfo'][2]; ?>" ,
+    "str"    :"<?php echo $_SESSION['maininfo'][3]; ?>" ,
+    "nr"    :"<?php echo $_SESSION['maininfo'][4]; ?>" ,
+    "ort"    :"<?php echo $_SESSION['maininfo'][5]; ?>" ,
+    "plz"    :"<?php echo $_SESSION['maininfo'][6]; ?>" ,
+    "tel"    :"<?php echo $_SESSION['maininfo'][7]; ?>" ,
+    "mobil"    :"<?php echo $_SESSION['maininfo'][8]; ?>", 
+    "mail"    :"<?php echo $_SESSION['maininfo'][9]; ?>" 
+  
+  };
+  
+  
+		MEMBER = { 
+		 "name": "<?php echo $NAME; ?>",
+		 "mail": "<?php echo $_SESSION['mail']; ?>",
+		 "idi": "<?php echo $_SESSION['idi']; ?>",
+		 "login": "<?php echo $_SESSION['login']; ?>", 
+		 "member": "<?php echo $_SESSION['member']; ?>",
+		 "lastlogin": "<?php echo $_SESSION['lastlogintime']; ?>",
+		 "membersice": "<?php echo $_SESSION['membersice']; ?>",
+		 "folder": "<?php echo $_SESSION['folder']; ?>"
+		
+		 };
+
+            
+    	USER = {         
+            "img" : "<?php echo $_SESSION['img'] ; ?> ",
+            "anrede" : "<?php echo $_SESSION['anrede'] ; ?> ",
+            "land" : "<?php echo $_SESSION['bundesland'] ; ?> "
+            }; 
+            
+        TXT = {         
+            "name"      :  MAIN.name,
+            "member"    : "Mitglied",
+            "members"   : "Mitglieder",
+            "todo"      : "Aufgabenliste",
+            "todos"     : "Aufgabenlisten",
+            "ag"        : "Arbeitsgruppe",
+            "ags"       : "Arbeitsgruppen",
+            "prog"      : "Projekt",
+            "progs"     : "Projekte",
+            "adr"       : "Adresse",
+            "adrs"      : "Adressen",
+            "mail"      : "E-Mail",
+            "mails"     : "E-Mails",
+            "finance"   : "Finanzen",
+            "poll"      : "Umfrage",
+            "polls"     : "Umfragen",
+            "executive" : "Vorstand"
+            }; 
+            
+            
+            
+      LAND = {         
+             "0"    :"Baden-Wuerttemberg",
+             "1"    :"Bayern" ,
+             "2"    :"Berlin" ,
+             "3"    :"Brandenburg" ,
+             "4"    :"Bremen" ,
+             "5"    :"Hamburg" ,
+             "6"    :"Hessen" ,
+             "7"    :"Mecklenburg-Vorpommern" ,
+	          "8"    :"Niedersachsen", 
+	          "9"    :"Nordrhein-Westfalen", 
+	          "10"    :"Rheinland-Pfalz" , 
+	          "11"    :"Saarland" , 
+	          "12"    :"Sachsen" , 
+	          "13"    :"Sachsen-Anhalt", 
+	          "14"    :"Schleswig-Holstein", 
+	          "15"    :"Thueringen" 
+            };    
+            
+
+	</script>
+
+
+
+<title><?php echo $_SESSION['maininfo'][0]; ?></title> 
+<meta name="description" content="<?php echo $_SESSION['maininfo'][1]; ?>">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="c3d2" >
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="plugins/iCheck/all.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="plugins/colorpicker/bootstrap-colorpicker.min.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="plugins/timepicker/bootstrap-timepicker.min.css">
+    <!-- Pace style -->
+  <link rel="stylesheet" href="plugins/pace/pace.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="plugins/select2/select2.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+  
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> 
+   <![endif]-->
+  
+   <link rel="stylesheet" href="dist/css/hfpbase.css"> 
+   
+
+	
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css"> 
+  <script src="plugins/w3data/w3data.js"></script>
+  </head>

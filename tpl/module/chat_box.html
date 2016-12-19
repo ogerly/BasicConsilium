@@ -1,0 +1,62 @@
+<div id="ichatb" class="box collapsed-box">
+        <div class="box-header with-border">
+          <h3 class="box-title">HFP Chat</h3>
+
+          <div class="box-tools pull-right">
+             <span data-toggle="tooltip" title="neue Nachrichten" class="badge bg-red"></span>
+							     
+						<button id="chat1boxopen"  class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>       
+          </div>
+        </div>
+        <div class="box-body">
+         
+ 
+ 
+ 
+
+							<div class="chatboxINDEX">
+							    
+						 
+									<div class="box box-danger direct-chat direct-chat-danger">
+									  
+									  <div id="chat-box-body" class="box-body">
+											     
+											      
+											   <div id="chatside" class="direct-chat-messages"></div> 
+											   
+											   
+											     <div class="input-group col-md-12">
+							   <!--  <form onsubmit="ws.send(MEMBER.idi + '#|#' +  MEMBER.name + '#|#' +$('#inputchat').val()); console.log('wssend=> '+ MEMBER.idi + '#|#' +  MEMBER.name + '#|#' +$('#inputchat').val() ); $('#inputchat').val(''); return false; ">   -->     
+                              <form id="chat_form">
+
+							        
+									      
+									      <div class="input-group  input-group-lg">
+                                   <span class="input-group-addon" style="   padding: 0px 0px;  "> <img src="useruploads/profilbilder/<?php echo $_SESSION['img'] ?>" style="height: 44px; margin: 0px 20px;" class="img-circle" alt="User Image"></span>
+                                       <input id="inputchat" type="text" class="form-control" placeholder="Text input" style="width: 100%;" maxlength="140" autocomplete="off">
+                                   </div>
+									       
+							      </form>
+							    </div>
+											 
+				
+									     
+									    
+										  </div><!-- /.box-body -->
+									   
+									 </div><!--/.direct-chat -->
+							
+							 
+							
+							</div>  <!--/.chatboxINDEX -->
+
+
+  
+        </div>
+        <!-- /.box-body -->
+          
+							  <div class="box-footer">
+							 
+							  </div><!-- /.box-footer-->
+        <!-- /.box-footer-->
+      </div>
