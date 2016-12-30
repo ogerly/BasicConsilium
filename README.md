@@ -193,33 +193,10 @@ _____________________
 
 # BasisConsilium Dokumentation
 
+deine CSS, JS, PHP Dateien.
+für die anpassung des Codes stehen dir drei Datein zur Verfügung. 
 
-## Startfunktion
-    load_counts("index");
+    dist/css/mycss.css
+    dist/js/myjs.js
+    dist/php/myphp.php
 
-
-## index.php
-Hier muss die Websocket Verbindung angepasst werden
-
-      //create a new WebSocket object.
-      // example ws://humanistischefriedenspartei.de:9000/server.php
-### var wsUri = "ws://0.0.0.0:9000/server.php"; 	
-  
-  >> Beim ersten Verbinden des Websocket kann es passieren das die Seite ewig lädt. Bei uns hilft es wenn wir den Browser noch mal neu starten und dann wird die Verbindung auch immer ordentlich dargestellt. Local muss man es nach jedem Neustart des Rechners machen! 
-  
-  
-
-## AJAX Funktion 
-hfp_ajax_html.js
-
-#### function myajax(typ,foo,data_foo)
-    typ :: muss immer angegeben werden
-    foo :: kann angegeben werden
-    data_foo :: die daten die per ajax ans php gesendet werden wenn lehr dann wird typ genommen 
-    data_foo BEISPIEL:: {"userid":69,"betreff":"yyxyxcyxc","txt":"yyxcyxcyxcyc"}
-    
-####  "typ" wird von switch(typ) gefiltert. 
-####  "typ" wird von hfp.php für MYSQL anfrage gefiltert. 
-
-### AJAX Ergebniss ist == "data"
-#### "data_foo" === "dataArray"(ARRAY)
